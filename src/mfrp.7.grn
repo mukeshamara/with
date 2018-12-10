@@ -1,0 +1,46 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=mfrp/src<com.view{search.java[search"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="0"/>
+      <y="0"/>
+   </type>
+   <type>
+      <name="=mfrp/src<com.dao{searchDAO.java[searchDAO"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="616"/>
+      <y="78"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=mfrp/src<com.view{search.java[search"/>
+      <targetType="=mfrp/src<com.dao{searchDAO.java[searchDAO"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <type>
+      <name="=mfrp/src<com.model{product.java[product"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="9"/>
+      <y="236"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=mfrp/src<com.view{search.java[search"/>
+      <targetType="=mfrp/src<com.model{product.java[product"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=mfrp/src<com.dao{searchDAO.java[searchDAO"/>
+      <targetType="=mfrp/src<com.model{product.java[product"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+

@@ -1,0 +1,25 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=mfrp/src<com.view{editprofile.java[editprofile"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="-62"/>
+      <y="20"/>
+   </type>
+   <type>
+      <name="=mfrp/src<com.dao{EditprofileDAO.java[EditprofileDAO"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="495"/>
+      <y="78"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=mfrp/src<com.view{editprofile.java[editprofile"/>
+      <targetType="=mfrp/src<com.dao{EditprofileDAO.java[EditprofileDAO"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+

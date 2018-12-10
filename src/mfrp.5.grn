@@ -1,0 +1,25 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=mfrp/src<com.view{getbooks.java[getbooks"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="0"/>
+      <y="0"/>
+   </type>
+   <type>
+      <name="=mfrp/src<com.dao{BooksDAO.java[BooksDAO"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="584"/>
+      <y="70"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=mfrp/src<com.view{getbooks.java[getbooks"/>
+      <targetType="=mfrp/src<com.dao{BooksDAO.java[BooksDAO"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+
